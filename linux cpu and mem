@@ -1,0 +1,14 @@
+Linux CPU and Mem notes:
+load average -- avg load vs cpu cores
+use uptime to find it or alternatively you can also use sar -q 
+if sar is not availabe install using sysstat package
+or even use top 
+cpu info /proc/cpuinfo
+
+-------
+/proc/meminfo
+
+free
+sysctl tool helps make changes to the kernel
+add changes to /etc/sysctl.conf to make it persistent
+
