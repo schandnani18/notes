@@ -12,3 +12,7 @@ free
 sysctl tool helps make changes to the kernel
 add changes to /etc/sysctl.conf to make it persistent
 
+----
+pgrep -lu root
+kill -9 <pid>
+
